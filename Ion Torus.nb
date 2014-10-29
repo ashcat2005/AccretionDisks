@@ -10,20 +10,69 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[    784187,      13401]
-NotebookOptionsPosition[    782404,      13345]
-NotebookOutlinePosition[    782761,      13361]
-CellTagsIndexPosition[    782718,      13358]
+NotebookDataLength[    786509,      13465]
+NotebookOptionsPosition[    784678,      13408]
+NotebookOutlinePosition[    785035,      13424]
+CellTagsIndexPosition[    784992,      13421]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
-Cell[BoxData[""], "Input"],
-
 Cell[BoxData[
  RowBox[{
-  RowBox[{"Exit", "[", "]"}], "\[IndentingNewLine]", 
-  "\[IndentingNewLine]"}]], "Input",
+  StyleBox["\[IndentingNewLine]", "Subtitle"], 
+  RowBox[{
+   StyleBox[
+    RowBox[{
+    "Tracing", " ", "the", " ", "geometry", " ", "of", " ", "an", " ", "Ion", 
+     " ", "Torus", " ", "around", " ", "Kerr", " ", "Black", " ", "hole"}], 
+    "Subtitle"], 
+   StyleBox["\[IndentingNewLine]", "Subtitle"], 
+   StyleBox["\[IndentingNewLine]", "Subtitle"], 
+   StyleBox[
+    RowBox[{"Free", " ", "parameters"}], "Subsubtitle"], 
+   StyleBox["\[IndentingNewLine]", "Subsubtitle"], 
+   RowBox[{
+    StyleBox[
+     RowBox[{"-", "Mass"}], "Subsubtitle"], " ", 
+    StyleBox["of", "Subsubtitle"], 
+    StyleBox[" ", "Subsubtitle"], 
+    StyleBox["the", "Subsubtitle"], 
+    StyleBox[" ", "Subsubtitle"], 
+    StyleBox["BH", "Subsubtitle"], 
+    StyleBox[" ", "Subsubtitle"], 
+    StyleBox[
+     RowBox[{"(", "M", ")"}], "Subsubtitle"]}], "\[IndentingNewLine]", 
+   RowBox[{
+    StyleBox[
+     RowBox[{"-", "Spin"}], "Subsubtitle"], " ", 
+    StyleBox[
+     RowBox[{"(", "a", ")"}], "Subsubtitle"]}], "\[IndentingNewLine]", 
+   RowBox[{
+    StyleBox[
+     RowBox[{"-", "Adimensional"}], "Subsubtitle"], " ", 
+    StyleBox["Angular", "Subsubtitle"], 
+    StyleBox[" ", "Subsubtitle"], 
+    StyleBox["Momentum", "Subsubtitle"], 
+    StyleBox[" ", "Subsubtitle"], 
+    StyleBox["of", "Subsubtitle"], 
+    StyleBox[" ", "Subsubtitle"], 
+    StyleBox["the", "Subsubtitle"], 
+    StyleBox[" ", "Subsubtitle"], 
+    StyleBox["Torus", "Subsubtitle"], 
+    StyleBox[" ", "Subsubtitle"], 
+    StyleBox[
+     RowBox[{"(", "lambda", ")"}], "Subsubtitle"]}], 
+   StyleBox[" ", "Subsubtitle"], "\[IndentingNewLine]"}]}]], "Input",
+ CellChangeTimes->{{3.6235395726826468`*^9, 3.623539574404688*^9}, {
+  3.623539608418129*^9, 3.623539756962401*^9}, {3.623539818835493*^9, 
+  3.623539894176517*^9}}],
+
+Cell[BoxData["\[IndentingNewLine]"], "Input",
+ CellChangeTimes->{3.623539917606715*^9}],
+
+Cell[BoxData[
+ RowBox[{"Exit", "[", "]"}]], "Input",
  CellChangeTimes->{{3.6228475557123137`*^9, 3.622847559788863*^9}, {
    3.622848445152244*^9, 3.622848446449127*^9}, {3.622960080165784*^9, 
    3.6229600813274*^9}, {3.6229812361163692`*^9, 3.622981236588414*^9}, 
@@ -31,12 +80,12 @@ Cell[BoxData[
    3.6230186935428057`*^9, 3.623018694697319*^9}, {3.623019190027274*^9, 
    3.623019192033807*^9}, {3.623019309531775*^9, 3.623019321425749*^9}, {
    3.623019548285091*^9, 3.6230195492281113`*^9}, {3.623019766125553*^9, 
-   3.623019767808752*^9}}],
+   3.623019767808752*^9}, {3.623539931184864*^9, 3.6235399316537743`*^9}}],
 
-Cell[TextData[StyleBox["\nMass of the Black Hole", "Subsubtitle",
+Cell[TextData[StyleBox["Mass of the Black Hole", "Subsubtitle",
  FontWeight->"Bold"]], "Text",
  CellChangeTimes->{{3.622981241978524*^9, 3.6229812785149918`*^9}, {
-  3.622981586313751*^9, 3.622981598484704*^9}}],
+   3.622981586313751*^9, 3.622981598484704*^9}, 3.623539936396247*^9}],
 
 Cell[BoxData[{
  RowBox[{"M", ":=", "1"}], "\[IndentingNewLine]", 
@@ -275,13 +324,26 @@ Cell[BoxData[
   3.62298212847231*^9}, {3.623018217218627*^9, 3.623018220130158*^9}, {
   3.623018506342511*^9, 3.623018510958263*^9}}],
 
-Cell[TextData[StyleBox["\nAngular Momentum of the Torus in terms of the \
-adimensional parameter Lambda\n", "Subsubtitle",
- FontWeight->"Bold"]], "Text",
+Cell[TextData[{
+ StyleBox["\nAngular Momentum of the Torus in terms of the adimensional \
+parameter Lambda\n", "Subsubtitle",
+  FontWeight->"Bold"],
+ StyleBox["lamda takes the values       0 ", "Subsubsection",
+  FontWeight->"Bold"],
+ "\[LessEqual]",
+ StyleBox[" lambda ", "Subsubsection",
+  FontWeight->"Bold"],
+ "\[LessEqual]",
+ StyleBox[" 1", "Subsubsection",
+  FontWeight->"Bold"],
+ StyleBox[" ", "Subsubtitle",
+  FontWeight->"Bold"]
+}], "Text",
  CellChangeTimes->{{3.622981241978524*^9, 3.6229812785149918`*^9}, {
    3.622981701271727*^9, 3.622981711351097*^9}, {3.6229818356251593`*^9, 
    3.6229818367154007`*^9}, {3.6229820546641273`*^9, 3.622982061345722*^9}, {
-   3.622982152388829*^9, 3.6229821656060753`*^9}, 3.622992659257881*^9}],
+   3.622982152388829*^9, 3.6229821656060753`*^9}, 3.622992659257881*^9, {
+   3.6235399848499403`*^9, 3.6235400531153927`*^9}}],
 
 Cell[BoxData[
  RowBox[{
@@ -431,8 +493,8 @@ Cell[BoxData[
   3.62299295462742*^9}, {3.622993032699046*^9, 3.6229930424967327`*^9}, {
   3.623018568213489*^9, 3.623018584800878*^9}}],
 
-Cell[TextData[StyleBox["\nContour Plot of W modified in Cartesian Coordinates \
-(x,z)\n", "Subsubtitle",
+Cell[TextData[StyleBox["\n\n\nContour Plot of W modified in Cartesian \
+Coordinates (x,z)\n", "Subsubtitle",
  FontWeight->"Bold"]], "Text",
  CellChangeTimes->{{3.622981241978524*^9, 3.6229812785149918`*^9}, {
    3.622981701271727*^9, 3.622981711351097*^9}, {3.6229818356251593`*^9, 
@@ -441,7 +503,8 @@ Cell[TextData[StyleBox["\nContour Plot of W modified in Cartesian Coordinates \
    3.622982218040188*^9}, {3.622982409642387*^9, 3.6229824101705723`*^9}, 
    3.622992656210368*^9, {3.622992711467598*^9, 3.622992716202736*^9}, {
    3.622993024215191*^9, 3.622993026599123*^9}, {3.622993090879725*^9, 
-   3.6229931267082577`*^9}, {3.6229932253339453`*^9, 3.62299323600881*^9}}],
+   3.6229931267082577`*^9}, {3.6229932253339453`*^9, 3.62299323600881*^9}, {
+   3.623540090174032*^9, 3.623540090475048*^9}}],
 
 Cell[CellGroupData[{
 
@@ -13344,7 +13407,7 @@ z/T7bGWRz1ad488V++ysY1P9cku7PEX/q6TIZx+ZnvynB/xxp+mmn5V/ij6r
 }, Open  ]]
 },
 WindowSize->{1026, 682},
-WindowMargins->{{Automatic, -86}, {Automatic, 0}},
+WindowMargins->{{90, Automatic}, {Automatic, 17}},
 FrontEndVersion->"8.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (November 6, \
 2010)",
 StyleDefinitions->"Default.nb"
@@ -13360,47 +13423,48 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[557, 20, 26, 0, 27, "Input"],
-Cell[586, 22, 650, 11, 58, "Input"],
-Cell[1239, 35, 213, 3, 49, "Text"],
-Cell[1455, 40, 273, 5, 43, "Input"],
-Cell[1731, 47, 94, 1, 27, "Input"],
-Cell[1828, 50, 162, 2, 49, "Text"],
-Cell[1993, 54, 1817, 55, 145, "Input"],
-Cell[3813, 111, 276, 4, 68, "Text"],
-Cell[4092, 117, 490, 13, 30, "Input"],
-Cell[4585, 132, 223, 3, 68, "Text"],
-Cell[4811, 137, 1655, 50, 117, "Input"],
-Cell[6469, 189, 270, 4, 68, "Text"],
-Cell[6742, 195, 476, 14, 50, "Input"],
-Cell[7221, 211, 272, 4, 68, "Text"],
-Cell[7496, 217, 811, 22, 49, "Input"],
-Cell[8310, 241, 338, 5, 68, "Text"],
-Cell[8651, 248, 498, 9, 44, "Input"],
-Cell[9152, 259, 389, 6, 68, "Text"],
-Cell[9544, 267, 396, 8, 44, "Input"],
-Cell[9943, 277, 447, 6, 68, "Text"],
-Cell[10393, 285, 407, 9, 27, "Input"],
-Cell[10803, 296, 502, 7, 68, "Text"],
-Cell[11308, 305, 928, 24, 49, "Input"],
-Cell[12239, 331, 538, 7, 68, "Text"],
-Cell[12780, 340, 1557, 41, 84, "Input"],
-Cell[14340, 383, 597, 8, 68, "Text"],
-Cell[14940, 393, 1470, 38, 66, "Input"],
-Cell[16413, 433, 726, 10, 68, "Text"],
+Cell[557, 20, 1799, 48, 169, "Input"],
+Cell[2359, 70, 87, 1, 43, "Input"],
+Cell[2449, 73, 636, 9, 27, "Input"],
+Cell[3088, 84, 234, 3, 30, "Text"],
+Cell[3325, 89, 273, 5, 43, "Input"],
+Cell[3601, 96, 94, 1, 27, "Input"],
+Cell[3698, 99, 162, 2, 49, "Text"],
+Cell[3863, 103, 1817, 55, 145, "Input"],
+Cell[5683, 160, 276, 4, 68, "Text"],
+Cell[5962, 166, 490, 13, 30, "Input"],
+Cell[6455, 181, 223, 3, 68, "Text"],
+Cell[6681, 186, 1655, 50, 117, "Input"],
+Cell[8339, 238, 270, 4, 68, "Text"],
+Cell[8612, 244, 476, 14, 50, "Input"],
+Cell[9091, 260, 272, 4, 68, "Text"],
+Cell[9366, 266, 811, 22, 49, "Input"],
+Cell[10180, 290, 338, 5, 68, "Text"],
+Cell[10521, 297, 498, 9, 44, "Input"],
+Cell[11022, 308, 389, 6, 68, "Text"],
+Cell[11414, 316, 396, 8, 44, "Input"],
+Cell[11813, 326, 797, 19, 68, "Text"],
+Cell[12613, 347, 407, 9, 27, "Input"],
+Cell[13023, 358, 502, 7, 68, "Text"],
+Cell[13528, 367, 928, 24, 49, "Input"],
+Cell[14459, 393, 538, 7, 68, "Text"],
+Cell[15000, 402, 1557, 41, 84, "Input"],
+Cell[16560, 445, 597, 8, 68, "Text"],
+Cell[17160, 455, 1470, 38, 66, "Input"],
+Cell[18633, 495, 780, 11, 106, "Text"],
 Cell[CellGroupData[{
-Cell[17164, 447, 901, 25, 27, "Input"],
-Cell[18068, 474, 217634, 3648, 364, 172242, 2902, "CachedBoxData", "BoxData", \
+Cell[19438, 510, 901, 25, 27, "Input"],
+Cell[20342, 537, 217634, 3648, 364, 172242, 2902, "CachedBoxData", "BoxData", \
 "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[235739, 4127, 1780, 40, 43, "Input"],
-Cell[237522, 4169, 131545, 2214, 370, 105031, 1779, "CachedBoxData", \
+Cell[238013, 4190, 1780, 40, 43, "Input"],
+Cell[239796, 4232, 131545, 2214, 370, 105031, 1779, "CachedBoxData", \
 "BoxData", "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[369104, 6388, 1355, 32, 43, "Input"],
-Cell[370462, 6422, 411926, 6920, 364, 333902, 5640, "CachedBoxData", \
+Cell[371378, 6451, 1355, 32, 43, "Input"],
+Cell[372736, 6485, 411926, 6920, 364, 333902, 5640, "CachedBoxData", \
 "BoxData", "Output"]
 }, Open  ]]
 }
